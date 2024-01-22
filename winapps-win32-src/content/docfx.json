@@ -49,8 +49,8 @@
       "feedback_product_url": "https://github.com/microsoft/ProjectReunion/issues",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "titleSuffix": "Windows App SDK",
-      "ms.prod": "reunion",
-      "ms.technology": "reunion-reference",
+      "ms.service": "windows-app-sdk",
+      "ms.subservice": "reunion-reference",
       "ms.author": "jken",
       "author": "GrantMeStrength"
     },
