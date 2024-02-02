@@ -44,15 +44,28 @@ helpviewer_keywords:
 
 ## -description
 
+Creates an [InputCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputcursor) from the provided cursor handle.
+
 ## -parameters
 
 ### -param cursor
 
+Type: **HCURSOR**
+
+A handle to the cursor.
+
 ### -param result
 
+The [InputCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputcursor).
+
+If *cursor* specifies a system cursor, an [InputSystemCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputsystemcursor) is created. Otherwise, an [InputCustomCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputcustomcursor) is created by copying the cursor.
+
 ## -returns
+
+Type: **HRESULT**
+
+If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function returns an error code.
 
 ## -remarks
 
 ## -see-also
-
