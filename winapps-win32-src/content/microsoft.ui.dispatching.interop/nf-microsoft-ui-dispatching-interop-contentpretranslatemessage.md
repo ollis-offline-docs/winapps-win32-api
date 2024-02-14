@@ -2,7 +2,7 @@
 UID: NF:microsoft.ui.dispatching.interop.ContentPreTranslateMessage
 tech.root: 
 title: ContentPreTranslateMessage
-ms.date: 
+ms.date: 02/13/2024
 targetos: Windows
 description: 
 prerelease: false
@@ -44,13 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Filters window messages before they are dispatched to the [TranslateMessage](/windows/win32/api/winuser/nf-winuser-translatemessage) and [DispatchMessage](/windows/win32/api/winuser/nf-winuser-dispatchmessage) functions.
+
 ## -parameters
 
 ### -param pmsg
 
+A pointer to an [MSG structure](/windows/win32/api/winuser/ns-winuser-msg) that contains the message to process.
+
 ## -returns
+
+True, if the message was fully processed by this function and should not be processed further. Otherwise, false if the message should go through standard processing.
 
 ## -remarks
 
+Often used to intercept and process keyboard accelerators and focus navigation across components before messages are sent to a specific HWND WNDPROC.
+
 ## -see-also
 
+[Simple Island App](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/Islands)
