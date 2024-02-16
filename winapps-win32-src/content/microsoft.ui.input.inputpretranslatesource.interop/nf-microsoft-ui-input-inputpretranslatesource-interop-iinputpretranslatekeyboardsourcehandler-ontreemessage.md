@@ -1,10 +1,10 @@
 ---
 UID: NF:microsoft.ui.input.inputpretranslatesource.interop.IInputPreTranslateKeyboardSourceHandler.OnTreeMessage
-tech.root: 
+tech.root: uiinterop
 title: IInputPreTranslateKeyboardSourceHandler::OnTreeMessage
-ms.date: 
+ms.date: 02/15/2024
 targetos: Windows
-description: 
+description: Handles keyboard input messages for pre-translate processing on elements without current focus.
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -1,10 +1,10 @@
 ---
 UID: NF:microsoft.ui.dispatching.interop.ContentPreTranslateMessage
-tech.root: 
+tech.root: uiinterop
 title: ContentPreTranslateMessage
 ms.date: 02/15/2024
 targetos: Windows
-description: 
+description: Filters window messages before they are dispatched to the TranslateMessage and DispatchMessage functions.
 prerelease: false
 req.assembly: 
 req.construct-type: function
