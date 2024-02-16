@@ -1,10 +1,10 @@
 ---
 UID: NN:microsoft.ui.input.inputpretranslatesource.interop.IInputPreTranslateKeyboardSourceHandler
-tech.root: 
+tech.root: uiinterop
 title: IInputPreTranslateKeyboardSourceHandler
-ms.date: 
+ms.date: 02/15/2024
 targetos: Windows
-description: 
+description: Enables kayboard input message handling.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

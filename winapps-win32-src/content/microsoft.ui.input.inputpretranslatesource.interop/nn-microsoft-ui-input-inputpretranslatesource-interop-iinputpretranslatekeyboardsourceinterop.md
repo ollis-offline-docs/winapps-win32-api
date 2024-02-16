@@ -1,10 +1,10 @@
 ---
 UID: NN:microsoft.ui.input.inputpretranslatesource.interop.IInputPreTranslateKeyboardSourceInterop
-tech.root: 
+tech.root: uiinterop
 title: IInputPreTranslateKeyboardSourceInterop
-ms.date: 
+ms.date: 02/15/2024
 targetos: Windows
-description: 
+description: Enables keyboard input interoperability between XAML and a native window.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
