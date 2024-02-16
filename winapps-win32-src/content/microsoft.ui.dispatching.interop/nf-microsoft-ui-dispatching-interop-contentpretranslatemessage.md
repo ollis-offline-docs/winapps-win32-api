@@ -2,7 +2,7 @@
 UID: NF:microsoft.ui.dispatching.interop.ContentPreTranslateMessage
 tech.root: 
 title: ContentPreTranslateMessage
-ms.date: 02/13/2024
+ms.date: 02/15/2024
 targetos: Windows
 description: 
 prerelease: false
@@ -58,8 +58,8 @@ True, if the message was fully processed by this function and should not be proc
 
 ## -remarks
 
-Often used to intercept and process keyboard accelerators and focus navigation across components before messages are sent to a specific HWND WNDPROC.
+Often used to intercept and process keyboard accelerators and focus navigation messages returned by the [GetMessage function](/windows/win32/api/winuser/nf-winuser-getmessage) before the messages are sent to a specific HWND WNDPROC.
 
 ## -see-also
 
-[Simple Island App](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/Islands)
+[microsoft.ui.input.inputpretranslatesource.interop header](../microsoft.ui.input.inputpretranslatesource.interop/index.md), [Simple Island App](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/Islands)

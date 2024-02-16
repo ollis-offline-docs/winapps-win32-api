@@ -42,15 +42,22 @@ helpviewer_keywords:
  - SetPreTranslateHandler
 ---
 
+# SetPreTranslateHandler function
+
 ## -description
+
+Sets the pretranslate handler for keyboard input processing.
 
 ## -parameters
 
-### -param handler
+### -param handler [in]
+
+The pretranslate handler.
 
 ## -returns
+
+This function has no return value.
 
 ## -remarks
 
 ## -see-also
-

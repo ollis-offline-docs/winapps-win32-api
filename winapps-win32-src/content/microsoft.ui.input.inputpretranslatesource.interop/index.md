@@ -2,7 +2,7 @@
 UID: NA:microsoft.ui.input.inputpretranslatesource.interop
 tech.root: uiinterop
 title: microsoft.ui.input.inputpretranslatesource.interop
-ms.date: 11/08/2023
+ms.date: 02/15/2024
 targetos: Windows
 description: Provides information about the microsoft.ui.input.inputpretranslatesource.interop.h header for the UI Interop API.
 prerelease: false
@@ -43,6 +43,8 @@ helpviewer_keywords:
  - microsoft.ui.input.inputpretranslatesource.interop
 ---
 
+# microsoft.ui.input.inputpretranslatesource.interop header
+
 ## -description
 
 This header is used by the [UI Interop API](../_uiinterop/index.md).
@@ -51,5 +53,6 @@ This header is used by the [UI Interop API](../_uiinterop/index.md).
 
 ## -see-also
 
-## -examples
+[microsoft.ui.dispatching.interop header](../microsoft.ui.dispatching.interop/index.md)
 
+## -examples
