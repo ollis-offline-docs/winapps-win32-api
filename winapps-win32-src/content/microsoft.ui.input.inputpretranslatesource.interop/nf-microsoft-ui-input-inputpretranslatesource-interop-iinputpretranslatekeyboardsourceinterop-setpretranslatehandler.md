@@ -50,7 +50,7 @@ Sets the pretranslate handler for keyboard input processing.
 
 ## -parameters
 
-### -param handler
+### -param handler [in]
 
 The pretranslate handler.
 
