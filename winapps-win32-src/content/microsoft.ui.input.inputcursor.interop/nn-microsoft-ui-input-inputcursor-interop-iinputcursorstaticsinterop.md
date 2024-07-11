@@ -38,7 +38,8 @@ helpviewer_keywords:
 
 ## -description
 
+Static interop interface that enables interoperability between XAML and a system input cursor. This interface is implemented by [InputCursor](/windows/windows-app-sdk/api/winrt/microsoft.ui.input.inputcursor).
+
 ## -remarks
 
 ## -see-also
-

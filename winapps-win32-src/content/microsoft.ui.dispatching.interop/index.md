@@ -43,6 +43,8 @@ helpviewer_keywords:
  - microsoft.ui.dispatching.interop
 ---
 
+# microsoft.ui.dispatching.interop header
+
 ## -description
 
 This header is used by the [UI Interop API](../_uiinterop/index.md).
@@ -50,5 +52,7 @@ This header is used by the [UI Interop API](../_uiinterop/index.md).
 ## -remarks
 
 ## -see-also
+
+[microsoft.ui.input.inputpretranslatesource.interop header](../microsoft.ui.input.inputpretranslatesource.interop/index.md)
 
 ## -examples
